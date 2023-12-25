@@ -1,0 +1,12 @@
+@import './accordion.scss';
+@import './progress-bar.scss';
+@import './ui/grouped-tasks.scss';
+@import './helper.scss';
+@import './checkbox.scss';
+
+.App {
+  display: flex;
+  align-items: center;
+  min-height: 100vh;
+  margin: 20px 0px;
+}

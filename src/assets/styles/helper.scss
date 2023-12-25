@@ -1,0 +1,116 @@
+.text-gray {
+  color: #999999;
+}
+
+.text-green {
+  color: #00b797;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.f-center {
+  justify-content: center;
+  align-items: center;
+}
+
+.f-j-center {
+  justify-content: center;
+}
+
+.f-a-center {
+  align-items: center;
+}
+
+.f-s-between {
+  justify-content: space-between;
+}
+
+.f-d-column {
+  flex-direction: column;
+}
+
+.gap-1 {
+  gap: 1rem;
+}
+
+.gap-2 {
+  gap: 2rem;
+}
+
+.gap-3 {
+  gap: 3rem;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.normal {
+  font-weight: normal;
+}
+
+.light {
+  font-weight: lighter;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.m-0 {
+  margin: 0;
+}
+
+.m-1 {
+  margin: 1rem;
+}
+
+.m-x-1 {
+  margin: 0 1rem !important;
+}
+
+.m-y-1 {
+  margin: 1rem 0;
+}
+
+.border {
+  border: 1px solid #dddddd;
+}
+
+.p-1 {
+  padding: 1rem;
+}
+
+.p-2 {
+  padding: 1.625rem 1.5rem;
+}
+
+.p-y-2 {
+  padding: 1.625rem 0;
+}
+
+.p-x-2 {
+  padding: 0 1.5rem;
+}
+
+.radius-1 {
+  border-radius: 0.5rem;
+}
+
+.border-top {
+  border-top: 1px solid #dddddd;
+  &:first-child {
+    border: none;
+  }
+}
+
+.border-none {
+  border: none;
+}
